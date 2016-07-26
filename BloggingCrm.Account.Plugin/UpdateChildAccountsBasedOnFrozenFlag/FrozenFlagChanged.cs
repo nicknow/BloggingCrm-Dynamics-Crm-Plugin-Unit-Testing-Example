@@ -10,7 +10,7 @@ using ThinkCrm.Core.PluginCore.Logging;
 namespace BloggingCrm.Account.Plugin.UpdateChildAccountsBasedOnFrozenFlag
 {
     [TargetEntity(true, CrmObject.Account.EntityLogicalName)]
-    [PreImageValidator(ImageName, CrmObject.Account.EntityLogicalName, true, CrmObject.Account.Fields.think_frozen)]
+    [RequiredImage(ImageType.PreImage, ImageName, CrmObject.Account.EntityLogicalName,true,CrmObject.Account.Fields.think_frozen)]
     public class FrozenFlagChanged : CorePlugin
     {
         private const string ImageName = "PreImage";
