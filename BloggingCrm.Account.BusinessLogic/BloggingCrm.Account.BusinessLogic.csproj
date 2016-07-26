@@ -64,8 +64,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThinkCrm.Core">
-      <HintPath>..\..\..\..\ThinkCrm.Core\ThinkCrm.Core\bin\Debug\ThinkCrm.Core.dll</HintPath>
+    <Reference Include="ThinkCrm.Core, Version=0.1.1.0, Culture=neutral, PublicKeyToken=b92dc79395655225, processorArchitecture=MSIL">
+      <HintPath>..\packages\ThinkCrm.Core.0.1.2-beta\lib\net452\ThinkCrm.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
